@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", function() {
   }, 2000);
 
   // Typing animation
-  const textToType = "Hi, I am Devendra Venkat. Welcome to my portfolio Website.";
+  const textToType = "Hi, I am Devendra Venkat. Welcome to my Website.";
   const typingSpeed = 100;
   const typedTextElement = document.getElementById("typed-text");
   let charIndex = 0;
@@ -22,6 +22,8 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   typeText();
+  
+  
 
   // Smooth scrolling for anchor links
   document.querySelectorAll("a[href^='#']").forEach(function(link) {
