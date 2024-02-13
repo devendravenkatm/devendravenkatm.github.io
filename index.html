@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Devendra Venkat</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/script.js"></script>
 </head>
 <body>
@@ -123,28 +123,5 @@
     <img src="assets/icons/icons8-scroll-up.png" class="socicon up-arrow" alt="scroll-up">
   </i>
 
-  <script>
-    window.addEventListener("DOMContentLoaded", function() {
-      var imageContainer = document.getElementById('image-container');
-      var mainContainer = document.getElementById('main-container');
-
-      setTimeout(function() {
-        imageContainer.style.display = 'none';
-        mainContainer.style.opacity = '1';
-      }, 2000);
-    });
-
-    document.querySelectorAll("a[href^='#']").forEach(function(link) {
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-
-        var href = this.getAttribute("href").substring(1);
-
-        document.getElementById(href).scrollIntoView({
-          behavior: "smooth"
-        });
-      });
-    });
-  </script>
 </body>
 </html>
