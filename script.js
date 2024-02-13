@@ -35,5 +35,13 @@ window.addEventListener("DOMContentLoaded", function() {
       });
     });
   });
+
+  // Scroll-up button functionality
+  var scrollUpButton = document.getElementById('scroll-up');
+  scrollUpButton.addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
 });
- 
