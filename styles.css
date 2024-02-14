@@ -1,11 +1,11 @@
 :root {
     --bg-color: black;
-    --primary-color: #ffffff; /* Change to your desired primary color */
-    --secondary-color: #6a1a3e; /* Change to your desired secondary color */
+    --primary-color: #ffffff;
+    --secondary-color: #6a1a3e;
 }
 
 * {
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box; 
 }
 
 body {
@@ -28,12 +28,12 @@ nav {
     justify-content: space-between;
     background-color: var(--bg-color);
     color: var(--primary-color);
-    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    padding: 0.5rem 1rem; 
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
     padding: 0.5rem;
 }
 
@@ -42,23 +42,23 @@ nav ul {
     gap: 1.9rem;
     list-style: none; 
     margin: 0;
-    padding: 0;/* Remove default list styles */
+    padding: 0;
 }
 
 nav ul li {
-    font-weight: bold; /* Use 'bold' instead of '--bold-font' */
+    font-weight: bold;
     padding: 0.5rem;
 }
 
 nav a {
     color: var(--primary-color);
-    text-decoration: none; /* Remove default underline */
-    transition: color 0.3s; /* Add transition effect */
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 nav a:hover {
     color: var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color); /* Add bottom border on hover */
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .burger-menu {
@@ -84,42 +84,41 @@ nav a:hover {
     z-index: 1;
     color: #000000;
     text-align: center;
-    height: 100vh; /* Set the height to 100vh */
+    height: 100vh; 
     background-image: url('assets/hero.jpg');
     background-size: cover;
     display: flex;
-    align-items: center; /* Vertically center the content */
-    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    justify-content: center;
 }
 
 .typing-animation {
-    overflow: hidden; /* Hide overflow text */
-    white-space: nowrap; /* Prevent text from wrapping */
-    font-size: 2.5rem; /* Adjust font size as needed */
+    overflow: hidden; 
+    white-space: nowrap; 
+    font-size: 2.5rem;  
     font-weight: bold;
     display: inline-block;
 }
 
 .cursor {
     display: inline-block;
-    width: 0.2em; /* Adjust cursor width as needed */
-    height: 1.2em; /* Adjust cursor height as needed */
-    background-color: #000000; /* Adjust cursor color as needed */
-    animation: blink-caret 0.75s infinite alternate; /* Blink animation for cursor */
-}
+    width: 0.2em;  
+    height: 1.2em;  
+    background-color: #000000;  
+    animation: blink-caret 0.75s infinite alternate;  
 
 @keyframes blink-caret {
     from, to {
-      background-color: transparent; /* Hide cursor */
+      background-color: transparent;  
     }
     50% {
-      background-color: #000000; /* Show cursor */
+      background-color: #000000; 
     }
 }
 
 .more-about {
     display: flex;
-    flex-direction: column; /* Ensure content stacks vertically */
+    flex-direction: column; 
     background-image: url(assets/1.jpg);
     background-size: cover;
     background-color: var(--bg-color);
@@ -143,7 +142,7 @@ nav a:hover {
 
 .contact {
     display: flex;
-    flex-direction: column; /* Ensure content stacks vertically */
+    flex-direction: column;  
     text-align: center;
     justify-content: center;
     background-image: url(assets/2.jpg);
@@ -156,14 +155,14 @@ nav a:hover {
 
 .skills {
     display: flex;
-    flex-direction: column; /* Ensure content stacks vertically */
+    flex-direction: column; 
     max-width: 100%;
     height: 100vh;
     font-size: xx-large;
     background-image: url(assets/4.jpg);
     background-size: cover;
     justify-content: center;
-    align-items: center; /* Horizontally center the content */
+    align-items: center; 
     text-align: center;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
 }
