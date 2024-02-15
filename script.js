@@ -1,12 +1,5 @@
+
 window.addEventListener("DOMContentLoaded", function() {
-  var imageContainer = document.getElementById('image-container');
-  var mainContainer = document.getElementById('main-container');
-
-  setTimeout(function() {
-    imageContainer.style.display = 'none';
-    mainContainer.style.opacity = '1';
-  }, 2000);
-
   // Typing animation
   const textToType = "Hi, I am Devendra Venkat. Welcome to my Website.";
   const typingSpeed = 100;
@@ -22,8 +15,6 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   typeText();
-  
-  
 
   // Smooth scrolling for anchor links
   document.querySelectorAll("a[href^='#']").forEach(function(link) {
