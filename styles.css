@@ -107,6 +107,11 @@ nav a:hover {
     color: #000000;
 }
 
+.typed-text {
+    font-family: 'YourFont', sans-serif; /* Check the font being used */
+    letter-spacing: normal; /* Ensure letter-spacing is not too wide */
+}
+
 .cursor {
     display: inline-block;
     width: 0.2em;
